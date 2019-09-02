@@ -165,7 +165,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.article {
+article {
   margin: 30px 5px;
   padding: 20px;
   max-width: 550px;
@@ -175,17 +175,17 @@ header .profile-image:hover {
   box-shadow: 3px 3px 3px #ccc;
   transition: all .5s;
 }
-.article:hover {
+article:hover {
   box-shadow: 3px 3px 3px #ff99ff;
 }
-.article ul {
+article ul {
   padding-left: 5px;
   list-style-type: none;
 }
-.article ul li img {
+article ul li img {
   margin-right: 5px;
 }
-.arti:hover {
+article:hover {
   border-color: #ff99ff;
 }
 
