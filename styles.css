@@ -165,7 +165,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.article {
   margin: 30px 5px;
   padding: 20px;
   max-width: 550px;
@@ -175,17 +175,17 @@ header .profile-image:hover {
   box-shadow: 3px 3px 3px #ccc;
   transition: all .5s;
 }
-.card:hover {
+.article:hover {
   box-shadow: 3px 3px 3px #ff99ff;
 }
-.card ul {
+.article ul {
   padding-left: 5px;
   list-style-type: none;
 }
-.card ul li img {
+.article ul li img {
   margin-right: 5px;
 }
-.card:hover {
+.arti:hover {
   border-color: #ff99ff;
 }
 
@@ -292,7 +292,7 @@ a.social:hover {
 
 }
 
-/* Styles for eperience progress bars */
+/* Styles for experience progress bars */
 .progress {
   padding: 30px;
 }
@@ -321,6 +321,30 @@ a.social:hover {
 .meter h2 {
   margin: 0;
 }
+
+/* Styles for contact form */
+
+label {
+  display: block;
+  margin: 10px 0 10px 0;
+  justify-content: start;
+}
+input,
+textarea
+ {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  background: #ff99ff;
+  border: none;
+  color: #fff;
+  font-size: 18px;
 
  
 
